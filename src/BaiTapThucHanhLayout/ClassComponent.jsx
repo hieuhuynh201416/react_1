@@ -7,17 +7,11 @@ import Footer from './Footer'
 export default class ClassComponent extends Component {
   render() {
     return (
-      <div>
-        <Header/>
-        <div>
-        <div>
-          <Body/>
-        </div>
-        
+      <div className='position-relative h-100'>
+        <Header />
+        <Body />
+        <Footer />
       </div>
-      <Footer/>
-    
-      </div>
-      
-    )}
+    )
+  }
 }
